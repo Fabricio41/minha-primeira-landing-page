@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.8em;
+    color: #ff69b4;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ff1493 border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff69b4;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #ff69b4;
+    text-align: center;
+}
+
+.imagem-centralizada {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: auto;
+
+}
+
+form {
+    display: flex;
+    flex-grow: inherit;
+    align-items: center;
+    margin: 20px 0;
+
+
+}
+
+label {
+    margin: 10px;
+
+}
+
+select.input[type="time"],
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+
+}
+
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+#servicos {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#servico h2 {
+    color: #ff69b4;
+}
+
+#servicos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#servicos li {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#galeria {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.imagens img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.imagens img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+@media(max-width:768px) {
+
+    header {
+        padding: 15px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    img {
+        width: 80px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    @media(max: width 480px; ) {
+        header {
+            font-size: 1, 5em;
+        }
+
+        section {
+            padding: 10px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+        }
+
+        img {
+            width: 70px;
+        }
+
+        @media(max: width 768px; ) {
+
+            #servicos {
+                padding: 15px;
+            }
+
+            #servico h2 {
+                font-size: 1.5em;
+            }
+
+            #servico li {
+                font-size: 0.9em;
+            }
+            @media (max: width 768px;){
+            .imagens img{
+                width: 100px;
+            }
