@@ -131,6 +131,19 @@ button:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
 }
+button {
+    background-color: #25D366; /* Cor do WhatsApp */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho da fonte */
+}
+button:hover {
+    background-color: #128C7E; /* Cor ao passar o mouse */
+}
+
 
 @media(max-width:768px) {
 
